@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head><title>AI Agents Training</title>
+    <style>body { font-family: sans-serif; line-height: 1.6; }h1, h2, h3 { color: #333; }
+    section { margin-bottom: 2em; }.exercise { background-color: #f0f0f0; padding: 1em; margin-bottom: 1em; }.rubric { border-collapse: collapse; width: 100%; }.rubric th, .r
+    ubric td { border: 1px solid #ddd; padding: 0.5em; text-align: left; }</style></head>
+    <body><h1>AI Agents Training</h1><section><h2>1. Overview and Key Concepts</h
+    2><p>Artificial intelligence (AI) agents are autonomous entities that perceive their en
+    vironment and act upon it to achieve specific goals.  Unlike traditional programs, AI age
+    nts learn and adapt through experience, using various techniques like reinforcement learn
+    ing, supervised learning, or a combination thereof.  They are characterized by their abil
+    ity to: </p><ul>    <li><b>Perceive:</b> Gather information from their environment th
+    rough sensors (e.g., cameras, sensors, APIs).</li>    <li><b>Reason:</b> Process inform
+    ation and make decisions based on their goals and knowledge.</li>    <li><b>Act:</b> Ta
+    ke actions in their environment to influence outcomes.</li>    <li><b>Learn:</b> Adapt
+    their behavior based on feedback and experience.</li></ul><p>AI agents find applicati
+    ons in diverse fields, including robotics, game playing, autonomous driving, and resource
+     management.  Recent research highlights the increasing sophistication of AI agents, driv
+    en by advancements in large language models (LLMs) and deep learning.</p></section>
+    <section><h2>2. Learning Objectives</h2><p>By the end of this training, participant
+    s will be able to:</p><ul>    <li>Explain the core concepts of AI agents and their co
+    mponents.</li>    <li>Describe different types of AI agents and their applications.</li
+    >    <li>Understand current research trends in AI agent development, as highlighted by
+    recent arXiv papers.</li>    <li>Implement basic AI agent algorithms using Python.</li>
+        <li>Evaluate the performance of AI agents using appropriate metrics.</li></ul><
+    /section><section><h2>3. Current Research Trends</h2><p>Recent arXiv papers sho
+    wcase exciting advancements in AI agent capabilities:</p><ul>    <li><b>CodePDE:</b>
+    This paper explores using LLMs to generate PDE solvers, potentially automating complex sc
+    ientific computations.  This represents a shift towards AI agents capable of generating a
+    nd utilizing code to solve complex problems. (http://arxiv.org/abs/2505.08783v1)</li>
+      <li><b>ARC-NCA:</b>  Focuses on improving agents' abilities in abstract reasoning and p
+    roblem-solving, pushing the boundaries of AI's general intelligence. (http://arxiv.org/ab
+    s/2505.08778v1)</li>    <li><b>Efficient Adaptation for Remote Sensing:</b>  This resea
+    rch demonstrates how adapting pre-trained models can efficiently enhance AI agents for ta
+    sks like visual grounding in remote sensing, highlighting the value of transfer learning
+    in agent development. (http://arxiv.org/abs/2503.23083v2)</li>    <li><b>Autonomous UAV
+     Visual Object Search:</b> This work addresses challenges in building AI agents for auton
+    omous drone navigation and object recognition in complex urban environments. (http://arxi
+    v.org/abs/2505.08765v1)</li>    <li><b>Advancing Food Nutrition Estimation:</b>  This p
+    aper explores using AI agents to estimate food nutrition from images, demonstrating the a
+    pplication of AI agents in practical real-world scenarios. (http://arxiv.org/abs/2505.087
+    47v1)</li></ul><p>These papers demonstrate the growing focus on creating more robust,
+     adaptable, and intelligent agents capable of tackling complex, real-world challenges.</p
+    ></section><section><h2>4. Practical Exercises with Instructions</h2><p>The f
+    ollowing exercises will reinforce your understanding of AI agents:</p><div class=\"exer
+    cise\"><h3>Exercise 1: Simple Grid World Agent</h3><p><b>Objective:</b> Implement a s
+    imple agent that navigates a grid world to reach a goal state. </p><p><b>Instructions:<
+    /b> Create a Python program that simulates a grid world with obstacles and a goal.  Imple
+    ment an agent using a simple search algorithm (e.g., Breadth-First Search) to find a path
+     to the goal.  Evaluate the agent's performance by measuring the number of steps taken to
+     reach the goal.</p></div><div class=\"exercise\"><h3>Exercise 2: Q-Learning Agen
+    t</h3><p><b>Objective:</b> Implement a Q-learning agent that learns to navigate a grid
+    world. </p><p><b>Instructions:</b>  Extend the previous exercise to use Q-learning to t
+    rain an agent.  The agent should learn the optimal policy through trial and error.  Exper
+    iment with different learning rates and discount factors to observe their impact on perfo
+    rmance.</p></div></section><section><h2>5. Implementation Examples</h2><p>(
+    Include code snippets here for Exercise 1 and Exercise 2.  These snippets should be funct
+    ional and clearly commented.  Consider using libraries like NumPy and Matplotlib for visu
+    alization.)</p></section><section><h2>6. Assessment Criteria and Rubric</h2><
+    table class=\"rubric\">  <tr>    <th>Criteria</th>    <th>Excellent (4 points)</th>
+        <th>Good (3 points)</th>    <th>Fair (2 points)</th>    <th>Poor (1 point)</th>
+      </tr>  <tr>    <td>Understanding of Core Concepts</td>    <td>Demonstrates a th
+    orough understanding of AI agents and their components.</td>    <td>Shows a good unders
+    tanding of core concepts with minor gaps.</td>    <td>Displays a basic understanding wi
+    th significant gaps.</td>    <td>Lacks a clear understanding of fundamental concepts.</
+    td>  </tr>  <tr>    <td>Exercise 1 Completion</td>    <td>Successfully implements
+     a functional grid world agent using a search algorithm.  Code is well-structured and com
+    mented.</td>    <td>Agent works but may have minor bugs or inefficiencies.  Code is ade
+    quately commented.</td>    <td>Agent partially works; significant bugs or inefficiencie
+    s are present.  Code is poorly commented.</td>    <td>Agent fails to function correctly
+    .  Code is lacking or incomprehensible.</td>  </tr>  <tr>    <td>Exercise 2 Complet
+    ion</td>    <td>Successfully implements a Q-learning agent that learns effectively.  Ex
+    periments with different parameters are conducted and analyzed.</td>    <td>Q-learning
+    agent shows some learning but may not be optimal.  Limited experimentation with parameter
+    s.</td>    <td>Agent shows minimal learning or fails to learn effectively.  Little or n
+    o experimentation.</td>    <td>Q-learning agent fails to function.</td>  </tr>  <tr
+    >    <td>Overall Performance</td>    <td>Exceeds expectations in all areas.</td>
+     <td>Meets expectations in most areas.</td>    <td>Partially meets expectations.</td>
+        <td>Fails to meet expectations.</td>  </tr></table></section><section><
+    h2>7. Further Reading and Resources</h2><ul>    <li><a href=\"https://arxiv.org/list/
+    cs.LG/recent\">arXiv cs.LG (Machine Learning) Recent Submissions</a></li>    <li>Reinfo
+    rcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto</li>    <li>
+    Various online courses on AI and reinforcement learning (e.g., Coursera, edX)</li></ul>
+    </section></body></html>
